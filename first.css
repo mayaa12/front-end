@@ -1,0 +1,71 @@
+.container{
+    margin: 20px;
+    width: 1200px;
+}
+.container .switcher{
+list-style:none;
+margin-bottom: 20px;
+text-align:center;
+
+}
+.container .switcher li {
+    display: inline-block;
+    width:20px;
+    height:20px;
+
+}
+.container h3{
+    color: red;
+}
+.container div {
+    background-color: red;
+    color: white;
+   padding:20px;
+  
+}
+.container .switcher li:first-child{
+    background-color: red;
+}
+.container .switcher li:nth-child(2){
+    background-color: purple;
+}
+.container .switcher li:nth-child(3){
+    background-color: green;
+}
+.container .switcher li:nth-child(4){
+    background-color: yellow;
+}
+.red .container h3{
+    color:red;
+
+}
+.red .container  div {
+    background-color: red;
+    color: white;
+}
+.purple .container h3{
+    color: purple;
+
+}
+.purple .container  div {
+    background-color: purple;
+    color: white;
+}
+.green .container h3{
+    color: green;
+
+}
+.green .container  div {
+    background-color: green;
+    color: white;
+}
+
+
+.yellow .container h3{
+    color: yellow;
+
+}
+.yellow .container  div {
+    background-color: yellow;
+    color: white;
+}
